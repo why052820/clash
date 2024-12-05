@@ -1,24 +1,9 @@
-# IP段匹配
-IP-CIDR,142.171.133.131/32,no-resolve
-IP-CIDR,103.115.43.2/32,no-resolve
-IP-CIDR,104.236.69.0/24,no-resolve
+# 代理补充列表
 
-# 国外DNS
-DOMAIN-SUFFIX,dns.google
-DOMAIN-SUFFIX,1dot1dot1dot1.cloudflare-dns.com
-DOMAIN-SUFFIX,dot.sb
-DOMAIN-SUFFIX,dns.umbrella.com
-DOMAIN-SUFFIX,dns.quad9.net
-DOMAIN-SUFFIX,dns.google
-DOMAIN-SUFFIX,cloudflare-dns.com
-DOMAIN-SUFFIX,doh.dns.sb
-DOMAIN-SUFFIX,doh.opendns.com
-DOMAIN-SUFFIX,dns.quad9.net
-DOMAIN-SUFFIX,hk-hkg.doh.sb
-
-# 其他网站
+# 域名后缀匹配
 DOMAIN-SUFFIX,qichiyu.com
 DOMAIN-SUFFIX,wallhaven.cc
+
 DOMAIN-SUFFIX,polymarket.com
 DOMAIN-SUFFIX,cacapex.com
 DOMAIN-SUFFIX,1lib.sk
@@ -43,7 +28,6 @@ DOMAIN-SUFFIX,browserleaks.org
 DOMAIN-SUFFIX,browserleaks.net
 DOMAIN-SUFFIX,surfsharkdns.com
 DOMAIN-SUFFIX,llgjc1.com
-
 DOMAIN-SUFFIX,polivera.ai
 DOMAIN-SUFFIX,asiassn.com
 DOMAIN-SUFFIX,mmcks.top
@@ -60,6 +44,23 @@ DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,abcproxy.com
 
+# 域名关键字匹配
+DOMAIN-KEYWORD,1e100
+
+# 国外DNS
+DOMAIN-SUFFIX,dns.google
+DOMAIN-SUFFIX,1dot1dot1dot1.cloudflare-dns.com
+DOMAIN-SUFFIX,dot.sb
+DOMAIN-SUFFIX,dns.umbrella.com
+DOMAIN-SUFFIX,dns.quad9.net
+DOMAIN-SUFFIX,dns.google
+DOMAIN-SUFFIX,cloudflare-dns.com
+DOMAIN-SUFFIX,doh.dns.sb
+DOMAIN-SUFFIX,doh.opendns.com
+DOMAIN-SUFFIX,dns.quad9.net
+DOMAIN-SUFFIX,hk-hkg.doh.sb
+
+# IP段匹配
 IP-CIDR,8.8.8.8/32,no-resolve
 IP-CIDR,8.8.4.4/32,no-resolve
 IP-CIDR,1.1.1.1/32,no-resolve
@@ -67,4 +68,7 @@ IP-CIDR,1.0.0.1/32,no-resolve
 IP-CIDR,185.222.222.222/32,no-resolve
 IP-CIDR,208.67.222.222/32,no-resolve
 IP-CIDR,208.67.220.220/32,no-resolve
+IP-CIDR,142.171.133.131/32,no-resolve
+IP-CIDR,103.115.43.2/32,no-resolve
+IP-CIDR,104.236.69.0/24,no-resolve
 IP-CIDR,142.250.0.0/16,no-resolve
