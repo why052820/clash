@@ -3,6 +3,7 @@ DOMAIN-SUFFIX,qichiyu.com
 DOMAIN-SUFFIX,wallhaven.cc
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,trae.ai
+DOMAIN-SUFFIX,datatables.net
 
 # IP段匹配
 IP-CIDR,142.171.133.131/32,no-resolve
