@@ -4,6 +4,7 @@ DOMAIN-SUFFIX,wallhaven.cc
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,trae.ai
 DOMAIN-SUFFIX,datatables.net
+DOMAIN-SUFFIX,roblox.com
 
 # IP段匹配
 IP-CIDR,142.171.133.131/32,no-resolve
